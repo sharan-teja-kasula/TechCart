@@ -1,0 +1,40 @@
+.center-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.form-width {
+  width: 40%;
+}
+.cart-number {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 100%;
+  padding: 2px 4px;
+  margin-right: 2px;
+  position: absolute;
+  right: 14.6rem;
+  top: 2.5rem;
+  font-size: x-small;
+}
+
+.multicolor-text {
+  background: linear-gradient(45deg, #ff5733, #ffc300, #4caf50, #3498db);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.multicolor-text:hover {
+  background: linear-gradient(45deg, #ff5733, #ffc300, #4caf50, #3498db);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: x-large;
+  font-weight: bold;
+  cursor: pointer;
+}

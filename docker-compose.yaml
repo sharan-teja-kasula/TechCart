@@ -1,0 +1,19 @@
+version: "1"
+services:
+  user-service:
+    build:
+      context: ./user-service
+    ports:
+      - "4500:4500"
+
+  product-service:
+    build:
+      context: ./product-service
+    ports:
+      - "3000:3000"
+
+  cart-service:
+    build:
+      context: ./cart-service
+    ports:
+      - "8000:8000"
